@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Background */
+body{
+
+}
+
+/* Logo */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0px 50px 0px 50px;
+}
+
+/*Font*/
+.font{
+	font-family: "Century Gothic";
+}
+
+/* Login/Signup Box */
+.login-form{
+	/*position: right; */
+	display: inline-block;
+	width : 270px;
+	height: 450px;
+	padding: 9px 50px 20px ;
+	background-color: #fff;
+	border-radius: 60px;
+    border: 2px solid #0099FF;	
+	box-shadow: 0 0 0 0 #000;
+	margin: 50px 50px 30px 0px;
+	opacity: 1.0;
+
+}
+
+/* Signup word */
+ul.signup{
+list-style-type: none;
+text-align: right ;
+padding: 0px 20px 20px 50px;
+
+}
+
+ul.signup li{
+width: 180px;	
+margin-bottom: 10px;
+color: black;
+font-size: 0.8em;
+text-align: center ;
+}
+
+ul.signup li input{
+width: 180px;
+text-align: center ;
+padding: 8px 0px;
+border: 1px solid #bae3ff;
+border-radius: 12px;
+background-color: #fff;	
+}
+
+ul.signup li:nth-child(5){
+color: black;
+padding: 0px 0px;
+font-size: 0.8em;
+text-align: right ;
+}
+
+
+ul.signup li input[type="submit"]{
+width: 100px;
+text-align: center;
+background-color: #000;
+color: #fff;
+border: 2px solid #000;
+padding: 5px 5px;
+margin: 5px 40px 10px;
+}
+

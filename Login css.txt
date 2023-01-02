@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Background */
+body{
+
+}
+
+
+/* Login/Signup Box */
+.login-form{
+	padding-top: 10vh;
+	width : 250px;
+	height: auto;
+	padding: 20px 30px;
+	background-color: #fff;
+	border-radius: 15px;
+    border: 2px solid #0099FF;	
+	box-shadow: 0 0 0 0 #000;
+	opacity: .6;
+	margin: auto;
+	
+}
+
+ul.signup{
+list-style-type: none;
+text-align: center;
+}
+
+ul.signup li{
+width: 250px;	
+margin-bottom: 10px;
+}
+
+ul.signup li input{
+width: 200px;
+text-align: left ;
+padding: 5px 5px;
+border: 2px solid;
+border-radius: 12px;
+background-color: #fff;	
+}
+
+ul.signup li input[type="button"]{
+width: 100px;
+text-align: center;
+background-color: #000;	
+color: #fff;
+}

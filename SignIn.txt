@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign In</title>
+
+<link href="backgroundStyle.css" rel="stylesheet" type="text/css">
+<link href="signupStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--Background-->
+<div id="container" class="gradient-background">
+	<img src="bubble.png" width="572" height="436" alt=""/>
+
+  <div class="login-form">
+	  <img src="2EIS Logo.png" width="250" height="100" alt=""/>
+	  <ul class="signup">
+	  <li> SIGN UP </li>
+	  <li><input type="text" name="userName" placeholder="     User Name" ></li>
+	  <li><input type="text" name="email" placeholder="     E-mail Address" ></li>
+	  <li><input type="text" name="password" placeholder="     Password" ></li>
+	  <li>Forgot Password ?</li>
+	  <li><input type="button" name="submit" value="SIGN UP" ></li>	  
+	  </ul>
+	</div>
+
+</div>	
+	
+</body>
+</html>

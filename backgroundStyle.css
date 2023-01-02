@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	display: flex;
+	width : 1265px;
+	height: 585px;
+}
+
+/* Background */
+body{
+	background-colour: #ffbaff ;
+	colour: #fff;
+}
+
+.gradient-background {
+	height: 100vh;
+	display: flex;
+	background: -webkit-linear-gradient(#C3E7F5 40%, #ffbaff 100%);
+	background: -moz-linear-gradient(#fff, #000);
+	background: -ms-linear-gradient(#fff, #000);
+	background: -o-linear-gradient(#fff, #000);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.background-img{
+	background: url('bubble.png');
+}

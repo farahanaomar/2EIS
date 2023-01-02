@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic";
+}
+
+/* Background Box */
+.bg-blue{
+	/*position: right; */
+	display: inline-block;
+	width : 1200px;
+	height: 530px;
+	padding: 10px 50px 5px;
+	background-color: #bae3ff;
+	border-radius: 15px;
+    border: 2px solid #0099FF;	
+	box-shadow: 0 0 0 0 #000;
+	margin: 80px 50px 30px 0px;
+}
+
+.bg-white{
+	/*position: right; */
+	display: inline-block;
+	width : 270px;
+	height: 430px;
+	padding: 10px 50px 5px;
+	background-color: #fff;
+	border-radius: 15px;
+    border: 2px solid #0099FF;	
+	box-shadow: 0 0 0 0 #000;
+	margin: 80px 50px 30px 0px;
+}
+
+/* Logo */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 110%;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+
+menu {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #7ECBF2;
+  padding: 0px 20px 30px 10px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+/* Style the list inside the menu */
+menu ul {
+  list-style-type: none;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 0px;
+  padding: 0px;
+
+}
+
+menu ul li{
+  text-decoration: none;
+  text-decoration-color: white;
+  padding:10px ;
+  color: white;
+
+}
+
+/*icon*/
+.img{
+  max-width: 20%;
+  height: auto;
+}
+
+
+/* Style the content - right section */
+article {
+  list-style-type: none;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 6;
+  background-color: #F4F4F4;
+  padding: 10px 20px 30px 20px;
+  border-radius: 0px 40px 40px 0px;
+  color: #414141;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+
+/*new added*/
+	display: inline-block;
+	width : 270px;
+	height: 480px;
+	
+}
+
+/* Style the footer */
+footer {
+  background-color: auto ;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
